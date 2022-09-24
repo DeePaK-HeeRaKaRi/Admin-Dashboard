@@ -1,0 +1,23 @@
+.cellWrapper{
+    display: flex;
+    align-items: center;
+    .img{
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 10px;
+        border-radius: 50%;
+        object-fit: cover;
+    }  
+}
+.status{
+    padding: 5px;
+    border-radius: 5px;
+    &.Pending{
+        color: goldenrod;
+        background-color: rgb(247, 247, 146);
+    }
+    &.Approved{
+        color: green;
+        background-color: rgba(167, 243, 167, 0.781);
+    }
+}
